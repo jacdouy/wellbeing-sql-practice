@@ -1,3 +1,12 @@
+#Notes from Jacob
+
+This project is the result of an application submitted to Anthropic. That application
+called for intervention effectiveness analysis in SQL, which I have not done before.
+Claude helped me build a generator to help me learn and to demonstrate my ability to
+work in this medium. The generator is built by Claude Code, to my spec. The queries and 
+notes in my_answers.sql are mine with Claude tutoring. Start with Q9 and Q12.
+
+
 # Wellbeing enforcement analysis: synthetic SQL practice set
 
 A seeded, deterministic generator for a **synthetic** trust-and-safety /
