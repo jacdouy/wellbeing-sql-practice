@@ -1,0 +1,81 @@
+{
+  "seed": 42,
+  "start_date": "2026-06-01",
+  "n_days": 90,
+  "model_switch_day": 45,
+  "classifier_v2_day": 60,
+  "variant_b_launch_day": 30,
+  "backlog_week": 7,
+  "flag_threshold": 0.7,
+  "miscalibrated_locales_v1": [
+    "hi-IN",
+    "pt-BR"
+  ],
+  "miscal_logit_shift": 1.1,
+  "classifier": {
+    "v1": {
+      "tier_mean": [
+        -2.3,
+        -0.7,
+        0.5,
+        1.15,
+        1.7
+      ],
+      "sigma": 1.0
+    },
+    "v2": {
+      "tier_mean": [
+        -1.9,
+        0.35,
+        0.8,
+        2.6,
+        3.4
+      ],
+      "sigma": 0.9
+    }
+  },
+  "recurrence_base_by_tier": {
+    "0": 0.03,
+    "1": 0.1,
+    "2": 0.3,
+    "3": 0.45,
+    "4": 0.6
+  },
+  "decision_multipliers": {
+    "not_reviewed": 1.0,
+    "no_action": 1.0,
+    "resource_shown": 1.0,
+    "steer_response": 0.65,
+    "escalate": 0.45
+  },
+  "variant_b_multiplier_by_tier": {
+    "0": 1.0,
+    "1": 1.0,
+    "2": 0.75,
+    "3": 0.75,
+    "4": 1.0
+  },
+  "model_v2_recurrence_multiplier": 1.4,
+  "drifting_reviewers": {
+    "R05": "+1.1 tiers over 90 days",
+    "R09": "-0.9 tiers over 90 days"
+  },
+  "category_prevalence_by_model_version": {
+    "m-2026.05": {
+      "benign": 0.87,
+      "self_harm": 0.035,
+      "suicide": 0.015,
+      "disordered_eating": 0.02,
+      "emotional_dependence": 0.035,
+      "sycophancy_concern": 0.025
+    },
+    "m-2026.07": {
+      "benign": 0.895,
+      "self_harm": 0.035,
+      "suicide": 0.015,
+      "disordered_eating": 0.02,
+      "emotional_dependence": 0.021,
+      "sycophancy_concern": 0.014
+    }
+  }
+}

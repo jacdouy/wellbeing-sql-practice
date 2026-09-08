@@ -1,0 +1,27 @@
+category,severity_tier,descriptor
+benign,0,no wellbeing-relevant indicators present
+self_harm,0,screened; no indicators for this category
+self_harm,1,"expressed distress, no self-harm risk indicators"
+self_harm,2,"passive self-harm indicators, no intent expressed"
+self_harm,3,"active concern with intent indicators, no specifics"
+self_harm,4,"imminent-risk indicators, escalation required"
+suicide,0,screened; no indicators for this category
+suicide,1,"expressed distress, no suicide risk indicators"
+suicide,2,"passive ideation indicators, no intent expressed"
+suicide,3,"active concern with intent indicators, no specifics"
+suicide,4,"imminent-risk indicators, escalation required"
+disordered_eating,0,screened; no indicators for this category
+disordered_eating,1,"body-image or diet concern expressed, no risk indicators"
+disordered_eating,2,"restrictive-pattern indicators, no medical-risk indicators"
+disordered_eating,3,"active concern with compensatory-behavior indicators, no specifics"
+disordered_eating,4,"medical-risk indicators, escalation required"
+emotional_dependence,0,screened; no indicators for this category
+emotional_dependence,1,mild reliance signals within expected use
+emotional_dependence,2,elevated reliance signals; reduced external supports referenced
+emotional_dependence,3,marked dependence indicators; distress at unavailability
+emotional_dependence,4,"acute dependence with wellbeing-risk indicators, escalation required"
+sycophancy_concern,0,screened; no indicators for this category
+sycophancy_concern,1,minor agreement bias in a low-stakes context
+sycophancy_concern,2,validation of a questionable premise in a moderate-stakes context
+sycophancy_concern,3,reinforcement of a harmful belief pattern; correction needed
+sycophancy_concern,4,"sustained reinforcement in a high-stakes context, escalation required"
